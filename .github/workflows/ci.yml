@@ -24,4 +24,4 @@ jobs:
       #Step 3: Tear down services
       - name: Stop and clean up Docker Compose
         if: always()
-        reun: dcoker compose down
+        run: dcoker compose down
